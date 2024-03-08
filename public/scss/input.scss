@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wp-content {
+	@apply max-w-[1200px] mx-auto w-[calc(100%-20px)];
+}
+
+.padd-top-bottom {
+	@apply py-[25px];
+}
+
+@layer base {
+	@font-face {
+		font-family: "Poppins-Light";
+		src: url("../fonts/Poppins-Light.woff");
+		font-display: block;
+	}
+
+	@font-face {
+		font-family: "Poppins-Regular";
+		src: url("../fonts/Poppins-Regular.woff");
+		font-display: block;
+	}
+
+	@font-face {
+		font-family: "Poppins-Medium";
+		src: url("../fonts/Poppins-Medium.woff");
+		font-display: block;
+	}
+
+	@font-face {
+		font-family: "Poppins-SemiBold";
+		src: url("../fonts/Poppins-SemiBold.woff");
+		font-display: block;
+	}
+
+	@font-face {
+		font-family: "Poppins-Bold";
+		src: url("../fonts/Poppins-Bold.woff");
+		font-display: block;
+	}
+}
